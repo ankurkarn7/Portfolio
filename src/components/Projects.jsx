@@ -4,13 +4,13 @@ export default function Projects() {
       title: "Portfolio Website",
       description: "A personal portfolio built with React and Tailwind CSS to showcase my skills, projects, and contact info.",
       image: "/portfolio.jpg", // Replace with screenshot path
-      link: "https://github.com/ankurkarn7/", // Replace with GitHub/Live link
+      link: "https://ankurkarn-portfolio.vercel.app/",
     },
     {
       title: "To-Do List App",
       description: "A simple task management app built with React for adding, editing, and deleting tasks.",
-      image: "/todolist.jpg", // Replace with screenshot path
-      link: "https://notes-app-one-smoky.vercel.app/", // Replace with GitHub/Live link
+      image: "/todolist.jpg",
+      link: "https://notes-app-one-smoky.vercel.app/",
     },
   ];
 
@@ -31,7 +31,7 @@ export default function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-96 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>

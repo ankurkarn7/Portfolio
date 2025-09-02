@@ -24,6 +24,10 @@ function App() {
       path:"/contact",
       element:<Contact />
     },
+    {
+      path:"/project",
+      element:<><Navbar/><Projects /><Socials /><Footer/></>
+    }
   ])
   return (
     <>
